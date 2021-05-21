@@ -7,9 +7,11 @@ namespace ConsoleApplication1.Laps2
         public string Color;
         public string Size;
 
-        public void Check()
+        public bool CheckColorAndSize(string c, string s)
         {
-            base.CheckHang(33.5);
+            if (Color.Equals(c) && Size.Equals(s) && Qty > 0)
+                return true;
+            return false;
         }
     }
 }

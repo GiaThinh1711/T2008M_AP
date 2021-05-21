@@ -2,7 +2,7 @@
 
 namespace ConsoleApplication1.ss2
 {
-    public class Animal
+    public abstract class Animal
     {
         public string Kind;
         public void Eat()
@@ -14,5 +14,7 @@ namespace ConsoleApplication1.ss2
         {
             Console.WriteLine("Nhu cc");
         }
+
+        public abstract void Running();
     }
 }

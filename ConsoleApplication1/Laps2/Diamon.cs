@@ -7,16 +7,11 @@ namespace ConsoleApplication1.Laps2
     {
         public double Cara;
 
-        public void CheckReal()
+        public bool CheckReal()
         {
             if (Cara > 10)
-            {
-                Console.WriteLine("It's real");
-            }
-            else
-            {
-                Console.WriteLine("It's fake");
-            }
+                return true;
+            return false;
         }
     }
 }

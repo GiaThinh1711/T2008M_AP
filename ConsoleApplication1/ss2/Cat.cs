@@ -2,8 +2,23 @@
 
 namespace ConsoleApplication1.ss2
 {
-    public class Cat : Animal
+    public class Cat : Animal,ICat,IAnimal
     {
+        public override void Running()
+        {
+            Console.WriteLine("Meo Meo");
+        }
+
+        public void Speak()
+        {
+            Console.WriteLine("Nhu cc");
+        }
+
+        public void Live()
+        {
+            Console.WriteLine("DBRR");
+        }
+
         public string Name;
         public void Meo()
         {
