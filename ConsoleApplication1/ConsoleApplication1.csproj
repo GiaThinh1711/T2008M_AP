@@ -38,13 +38,35 @@
         <Reference Include="System.Xml" />
     </ItemGroup>
     <ItemGroup>
+        <Compile Include="ass1\ClimateControl.cs" />
+        <Compile Include="ass1\Clothing.cs" />
+        <Compile Include="ass1\Program.cs" />
+        <Compile Include="ass1\Sport.cs" />
+        <Compile Include="ass1\TrendSetting.cs" />
         <Compile Include="Laps2\Diamon.cs" />
         <Compile Include="Laps2\Fashion.cs" />
+        <Compile Include="Laps3\Cart.cs" />
+        <None Include="Laps6\CountDown.cs" />
+        <Compile Include="Laps5\DemoDelegate.cs" />
+        <Compile Include="ss5\Product.cs" />
+        <None Include="ss5\Program.cs" />
+        <None Include="ss4\DemoDelegate.cs" />
+        <Compile Include="ss4\DemoDelegate2.cs" />
+        <None Include="ss4\Program.cs" />
+        <None Include="Laps3\Program.cs" />
+        <Compile Include="Laps4\KhachHang.cs" />
+        <Compile Include="Laps4\KhachHangNuocNgoai.cs" />
+        <Compile Include="Laps4\KhachHangVN.cs" />
+        <None Include="Laps4\Program.cs" />
         <Compile Include="ss2\Animal.cs" />
         <Compile Include="ss2\Cat.cs" />
+        <Compile Include="ss2\IAnimal.cs" />
+        <Compile Include="ss2\ICat.cs" />
+        <Compile Include="ss3\Product.cs" />
+        <None Include="ss3\Program.cs" />
         <None Include="Program.cs" />
         <Compile Include="Laps1\Product.cs" />
-        <Compile Include="Laps1\Programs.cs" />
+        <None Include="Laps1\Programs.cs" />
         <Compile Include="Properties\AssemblyInfo.cs" />
         <None Include="ss1\Program.cs" />
         <Compile Include="ss1\Student.cs" />

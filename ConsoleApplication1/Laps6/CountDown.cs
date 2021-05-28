@@ -33,6 +33,7 @@ namespace ConsoleApplication1.Laps6
                    x--;  
                }
            } while (x>=0);
+           Console.WriteLine("Time up");
         }
     }
 }
