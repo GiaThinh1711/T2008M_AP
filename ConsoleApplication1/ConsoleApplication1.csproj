@@ -40,14 +40,18 @@
     <ItemGroup>
         <Compile Include="ass1\ClimateControl.cs" />
         <Compile Include="ass1\Clothing.cs" />
-        <Compile Include="ass1\Program.cs" />
+        <None Include="ass1\Program.cs" />
         <Compile Include="ass1\Sport.cs" />
         <Compile Include="ass1\TrendSetting.cs" />
+        <Compile Include="GeometryExample\Cylinder.cs" />
         <Compile Include="Laps2\Diamon.cs" />
         <Compile Include="Laps2\Fashion.cs" />
         <Compile Include="Laps3\Cart.cs" />
         <None Include="Laps6\CountDown.cs" />
-        <Compile Include="Laps5\DemoDelegate.cs" />
+        <None Include="Laps5\DemoDelegate.cs" />
+        <Compile Include="Practicle2\Animal.cs" />
+        <Compile Include="Practicle2\Lion.cs" />
+        <Compile Include="Practicle2\Tiger.cs" />
         <Compile Include="ss5\Product.cs" />
         <None Include="ss5\Program.cs" />
         <None Include="ss4\DemoDelegate.cs" />
